@@ -20,7 +20,6 @@ output reg [12:0] addr_toRAM;
 output reg [12:0] PC; // This has been added as an output for TB purposes
 output reg [15:0] W; // This has been added as an output for TB purposes
 
-// Your design goes in here
 reg [12:0] operand, operandNext;
 reg [ 2:0] opcode, opcodeNext;
 reg [ 2:0] state, stateNext;
